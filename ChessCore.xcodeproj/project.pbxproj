@@ -14,6 +14,9 @@
 		83B8A9111E195FE7008EDE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B8A90F1E195FE7008EDE2A /* LaunchScreen.storyboard */; };
 		83B8A91C1E195FE7008EDE2A /* ChessCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A91B1E195FE7008EDE2A /* ChessCoreTests.swift */; };
 		83B8A9271E195FE7008EDE2A /* ChessCoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A9261E195FE7008EDE2A /* ChessCoreUITests.swift */; };
+		83B8A9351E1960E8008EDE2A /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A9341E1960E8008EDE2A /* BoardView.swift */; };
+		83B8A9391E196407008EDE2A /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A9381E196407008EDE2A /* BoardViewController.swift */; };
+		83B8A93B1E196471008EDE2A /* GamePiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A93A1E196471008EDE2A /* GamePiece.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		83B8A9221E195FE7008EDE2A /* ChessCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B8A9261E195FE7008EDE2A /* ChessCoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessCoreUITests.swift; sourceTree = "<group>"; };
 		83B8A9281E195FE7008EDE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B8A9341E1960E8008EDE2A /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		83B8A9381E196407008EDE2A /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		83B8A93A1E196471008EDE2A /* GamePiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePiece.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,8 @@
 		83B8A9051E195FE7008EDE2A /* ChessCore */ = {
 			isa = PBXGroup;
 			children = (
-				83B8A9061E195FE7008EDE2A /* AppDelegate.swift */,
-				83B8A9081E195FE7008EDE2A /* ViewController.swift */,
-				83B8A90A1E195FE7008EDE2A /* Main.storyboard */,
-				83B8A90D1E195FE7008EDE2A /* Assets.xcassets */,
-				83B8A90F1E195FE7008EDE2A /* LaunchScreen.storyboard */,
-				83B8A9121E195FE7008EDE2A /* Info.plist */,
+				83B8A9361E1963BA008EDE2A /* Board */,
+				83B8A9371E1963E0008EDE2A /* Helper */,
 			);
 			path = ChessCore;
 			sourceTree = "<group>";
@@ -123,6 +125,29 @@
 				83B8A9281E195FE7008EDE2A /* Info.plist */,
 			);
 			path = ChessCoreUITests;
+			sourceTree = "<group>";
+		};
+		83B8A9361E1963BA008EDE2A /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				83B8A9341E1960E8008EDE2A /* BoardView.swift */,
+				83B8A9381E196407008EDE2A /* BoardViewController.swift */,
+				83B8A93A1E196471008EDE2A /* GamePiece.swift */,
+			);
+			name = Board;
+			sourceTree = "<group>";
+		};
+		83B8A9371E1963E0008EDE2A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				83B8A9061E195FE7008EDE2A /* AppDelegate.swift */,
+				83B8A9081E195FE7008EDE2A /* ViewController.swift */,
+				83B8A90A1E195FE7008EDE2A /* Main.storyboard */,
+				83B8A90D1E195FE7008EDE2A /* Assets.xcassets */,
+				83B8A90F1E195FE7008EDE2A /* LaunchScreen.storyboard */,
+				83B8A9121E195FE7008EDE2A /* Info.plist */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B8A9351E1960E8008EDE2A /* BoardView.swift in Sources */,
 				83B8A9091E195FE7008EDE2A /* ViewController.swift in Sources */,
+				83B8A93B1E196471008EDE2A /* GamePiece.swift in Sources */,
 				83B8A9071E195FE7008EDE2A /* AppDelegate.swift in Sources */,
+				83B8A9391E196407008EDE2A /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
