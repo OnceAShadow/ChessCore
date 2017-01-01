@@ -9,9 +9,9 @@ import UIKit
 class GamePiece: NSObject {
 
     // Image or Letter for now
-    // Player Int
     // Type -> Where do I create Type vs Move Type??
     // Position
-    //
+    // Number of time moved
+    
     
 }

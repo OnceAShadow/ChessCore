@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		83B8A9071E195FE7008EDE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A9061E195FE7008EDE2A /* AppDelegate.swift */; };
-		83B8A9091E195FE7008EDE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8A9081E195FE7008EDE2A /* ViewController.swift */; };
 		83B8A90C1E195FE7008EDE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B8A90A1E195FE7008EDE2A /* Main.storyboard */; };
 		83B8A90E1E195FE7008EDE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B8A90D1E195FE7008EDE2A /* Assets.xcassets */; };
 		83B8A9111E195FE7008EDE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B8A90F1E195FE7008EDE2A /* LaunchScreen.storyboard */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		83B8A9031E195FE7008EDE2A /* ChessCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B8A9061E195FE7008EDE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83B8A9081E195FE7008EDE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83B8A90B1E195FE7008EDE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83B8A90D1E195FE7008EDE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B8A9101E195FE7008EDE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				83B8A9061E195FE7008EDE2A /* AppDelegate.swift */,
-				83B8A9081E195FE7008EDE2A /* ViewController.swift */,
 				83B8A90A1E195FE7008EDE2A /* Main.storyboard */,
 				83B8A90D1E195FE7008EDE2A /* Assets.xcassets */,
 				83B8A90F1E195FE7008EDE2A /* LaunchScreen.storyboard */,
@@ -288,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B8A9351E1960E8008EDE2A /* BoardView.swift in Sources */,
-				83B8A9091E195FE7008EDE2A /* ViewController.swift in Sources */,
 				83B8A93B1E196471008EDE2A /* GamePiece.swift in Sources */,
 				83B8A9071E195FE7008EDE2A /* AppDelegate.swift in Sources */,
 				83B8A9391E196407008EDE2A /* BoardViewController.swift in Sources */,
